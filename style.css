@@ -69,16 +69,14 @@ nav ul li a:hover {
 /* Styles division 1 */
 
 .container-division1 {
+    margin: 40px auto;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     background-color: white;
     border: 1px solid #E2EBF0;
-    /* padding: 10px; */
     box-shadow: 0 4px 6px rgba(7, 3, 3, 0.1);
-    margin: 10px;
-    padding: 4px;
-    /* padding-bottom: 10px; */
     position: relative;
 }
 
@@ -108,6 +106,9 @@ nav ul li a:hover {
 /* Images content styles  */
 
 .image-content1 {
+    /* max-width: 320px; */
+    margin: 40px auto;
+    padding: 0 20px;
     display: flex ;
     flex-direction: column;
     gap: 20px;
@@ -141,6 +142,8 @@ nav ul li a:hover {
 }
 
 .image-content2 {
+    margin: 40px auto;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -172,6 +175,8 @@ nav ul li a:hover {
 
 
 .image-container4 {
+    margin: 40px auto;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -193,6 +198,8 @@ nav ul li a:hover {
 }
 
 .image-container5 {
+    margin: 40px auto;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -237,6 +244,7 @@ nav ul li a:hover {
 }
 
 /* Footer Links styles */
+
 footer {
     margin: 20px;
     padding: 10px;
@@ -280,7 +288,6 @@ footer {
 @media screen and (max-width: 768px) {
     .nav-links {
         display: flex;
-        /* gap: 54px; */
         position: absolute;
         top: 70px;
         left: 20px;
@@ -311,7 +318,6 @@ footer {
     li a  {
     position: relative;
     top: 10px;
-    /* gap: 100px; */
 
     }
 
@@ -420,7 +426,6 @@ footer {
     .container-division1 img {
         width: 100%;
         max-height: max-content;
-        /* height: 300px; */
         border-radius: 10px;
     }
 
@@ -439,6 +444,7 @@ footer {
         position: relative;
         right: 5px;
     }
+
     .image-content1 p {
         word-spacing: 10px;
     }
@@ -461,7 +467,6 @@ footer {
     }
 
     
-
     .image-research a img {
         width: 100%;
     }
@@ -473,7 +478,6 @@ footer {
     .image-container4 img {
         width: 100%;
         max-height: max-content;
-        /* height: 270px; */
         border-radius: 10px;
     }
 

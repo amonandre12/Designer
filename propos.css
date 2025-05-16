@@ -149,8 +149,9 @@ nav ul li a:hover {
 /* Container Images */
 
 .containerImage {
-    margin: 20px;
-    padding: 15px;
+    /* max-width: 320px; */
+    margin: 40px auto;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -193,8 +194,8 @@ nav ul li a:hover {
 }
 
 .conceptionContent {
-    margin: 30px;
-    padding: 10px;
+    margin: 40px ;
+    padding: 20px ;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -204,12 +205,18 @@ nav ul li a:hover {
     background-color: #FAFAFA;
     border: 1px solid #E2EBF0;
     box-shadow: 0 4px 6px rgba(7, 3, 3, 0.1);
+    position: relative;
+    top: 40px;
 }
 
 .conceptionContent p {
     font-size: 17px;
 }
 
+.conceptionContent img {
+     max-width: 100%;
+    height: auto;
+}
 .fade {
     margin: 90px 0 ;
     padding: 40px;
@@ -230,8 +237,9 @@ nav ul li a:hover {
 /* Yoda container styles  */
 
 .yodaContainer {
-    margin: 10px;
-    padding: 15px;
+    /* max-width: 320px; */
+    margin: 40px auto;
+    padding: 0 20px;
     display: flex;
     flex-direction: column-reverse;
     gap: 20px;
@@ -241,7 +249,8 @@ nav ul li a:hover {
 }
 
 .yodaContainer img {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 .yoda {
@@ -257,8 +266,9 @@ nav ul li a:hover {
 /* Presentation content  */
 
 .presentationContent {
-    margin: 20px;
-    padding: 15px;
+    /* max-width: 320px; */
+    margin: 40px auto;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -287,8 +297,9 @@ nav ul li a:hover {
 /* Ebook content  */
 
 .ebookContent {
-    margin: 10px;
-    padding: 15px;
+    /* max-width: 320px; */
+    margin: 40px auto;
+    padding: 0 20px;
     display: flex;
     flex-direction: column-reverse;
     gap: 5px;
@@ -300,8 +311,8 @@ nav ul li a:hover {
 }
 
 .ebookContent  img {
-    width: 440px;
-    height: 300%;
+    max-width: 100%;
+    height: auto;
 }
 
 .ebookContent  a {
@@ -323,8 +334,8 @@ nav ul li a:hover {
 }
 
 .systemContent img {
-    width: 100%;
-    height: 330px;
+    max-width: 100%;
+    height: auto;
 }
 
 .systemContent a {
@@ -337,8 +348,9 @@ nav ul li a:hover {
 }
 
 .historyContent {
-    margin: 10px;
-    padding: 15px;
+    /* max-width: 320px; */
+    margin: 40px auto;
+    padding: 0 20px;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -352,6 +364,7 @@ nav ul li a:hover {
 .historyContent p {
     font-size: 20px;
 }
+
 .historyContent a {
     color: #777;
 }
@@ -365,8 +378,8 @@ br {
 }
 
 .historyContent img {
-    width: 400px;
-    height: 300px;
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -397,6 +410,7 @@ footer {
     display: flex;
     flex-direction: row;
 }
+
 @media(min-width: 1025px)  {
 
     /* Footer */
@@ -457,20 +471,26 @@ footer {
     /* Container images styles */
 
     .containerImage  {
+         max-width: 320px;
+         margin: 10px auto;
+         padding: 0 20px;
         display: flex;
         flex-direction: row;
-        margin: 45px;
-        padding: 45px;
         gap: 10px;
     }
+
+    .containerImage  img {
+        width: 190px;
+    } 
 
     /* Fade Content  */
 
     .conceptionContent  {
+         /* width: 520px; */
+         margin: 10px;
+        padding: 0 20px;
         display: flex;
         flex-direction: row;
-        margin: 20px;
-        padding: 20px;
         position: relative;
         bottom: 60px;
     }
