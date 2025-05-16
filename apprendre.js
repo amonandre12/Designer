@@ -1,7 +1,8 @@
 AOS.init({
-//   duration: 800,    
-//   once: false       
+//   duration: 800,  
+//   once: true        
 });
+
 
 // Selection des elements
 
@@ -16,6 +17,10 @@ burger.addEventListener('click', (e) => {
         navLinks.style.display = 'none'
     }
 }) ;
+
+
+
+
 
 
 

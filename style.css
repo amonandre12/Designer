@@ -13,10 +13,6 @@ body, html {
     cursor: pointer;
 }
 
-#menuLogo :focus {
-     /* background: orange; */
-    }
-
 header {
     display: flex;
     justify-content: space-between;
@@ -31,9 +27,6 @@ header {
     width: 100%;
 }
 
-nav {
-    /* display: none; */
-}
 
 .logo img {
     max-height: 50px;
@@ -78,21 +71,20 @@ nav ul li a:hover {
 .container-division1 {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     background-color: white;
     border: 1px solid #E2EBF0;
-    padding: 10px;
+    /* padding: 10px; */
     box-shadow: 0 4px 6px rgba(7, 3, 3, 0.1);
     margin: 10px;
-    padding: 10px;
-    padding-bottom: 30px;
+    padding: 4px;
+    /* padding-bottom: 10px; */
     position: relative;
-    top: 100px;
 }
 
 .container-division1 img {
     width: 100%;
-    height: 300px;
+    height: 330px;
 }
 
 .container-division1 p {
@@ -100,7 +92,7 @@ nav ul li a:hover {
 }
 
 .container-division1 h1 {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .img-content {
@@ -109,6 +101,7 @@ nav ul li a:hover {
     padding: 3px;
     box-shadow: 0 4px 6px rgba(7, 3, 3, 0.1);
     margin: 10px;
+    
 }
 
 
@@ -264,9 +257,21 @@ footer {
     color: #777;
     display: none;
 }
+
 .line-links {
     display: flex;
     flex-direction: row;
+}
+
+
+.fade {
+    margin: 90px 0 ;
+    padding: 40px;
+}
+
+.img-content {
+    margin: 80px 0 ;
+    padding: 10px;
 }
 /* Medi Query */
 
@@ -400,7 +405,8 @@ footer {
         display: flex;
         flex-direction: row;
         gap: 30px;
-        margin-left: 250px;
+        justify-content: center;
+        align-items: center;
         
     }
 
