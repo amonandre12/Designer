@@ -298,11 +298,16 @@ footer {
         padding-bottom: 50px;
     }
 
-    .line-links {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
+    nav .line-links {
+         display: inline-block;
+         flex-direction: column;
+          gap: 30px;
+         position: absolute;
+         left: 37%;
+         top: 20px;
     }
+
+
     li a  {
     position: relative;
     top: 10px;
@@ -323,8 +328,10 @@ footer {
     .menuContainer {
         flex-direction: row;
         gap: 50px;
-        margin-left: 52px;
-        margin-top: 50px;
+        position: absolute;
+        bottom: 80px;
+        align-items: center;
+        right: 18px;
     }
 }
 
